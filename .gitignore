@@ -1,0 +1,173 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ML/Data Science specific
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.pb
+models/trained/*.pkl
+models/trained/*.h5
+models/trained/*.pt
+
+# Large data files (uncomment if needed)
+# *.csv
+# *.json
+# *.parquet
+# data/raw/*
+# data/processed/*
+# !data/raw/.gitkeep
+# !data/processed/.gitkeep
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+tmp/
+temp/
+
+# Generated plots/images (if you want to ignore them)
+# *.png
+# *.jpg
+# *.jpeg
+# plots/
+# visualizations/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# Weights & Biases
+wandb/
+
+# DVC (Data Version Control)
+.dvc/
+
+# Secrets
+.env
+.env.local
+secrets/
+*.key
+*.pem
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Custom: Project specific
+/experiments/
+/scratch/
+/archive/
+notes.txt
+TODO.txt
+
+# Keep these directories but ignore contents conditionally
+!.gitkeep
